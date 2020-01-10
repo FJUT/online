@@ -1,17 +1,32 @@
 {
   "name": "online",
   "description": "online",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "build": "echo 1"
   },
+  "bin": {
+    "online": "./server/server.js"
+  },
   "author": "luojia@luojia.me",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.12.2",
+    "commander": "^2.20.0",
     "http_request_pack": "^1.0.2",
-    "ws": "^3.1.0"
+    "ws": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "browserslist-useragent": "^3.0.0",
+    "core-js": "^3.0.1",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
