@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "build": "echo 1"
+    "build": "node server/server.js"
   },
   "bin": {
     "online": "./server/server.js"
