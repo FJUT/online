@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "build": "echo 1"
   },
   "author": "luojia@luojia.me",
   "license": "MIT",
