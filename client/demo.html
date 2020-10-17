@@ -17,6 +17,8 @@ var cha=$('#cha'),
 	usr=$('#usr');
 
 var ol=new Online('ws://'+location.host+'/online');
+// var ol=new Online('wss://api.diygod.me/online/');
+// var ol=new Online('ws://localhost:3309/online');
 	ol.enter('demo');
 	ol.onOnlineChange=function(data){
 		console.log(data)
